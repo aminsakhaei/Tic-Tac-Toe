@@ -1,0 +1,43 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+game                                                                              0x053C      18
+sum                                                                               0x054E      16
+x                                                                                 0x055E       2
+y                                                                                 0x0560       2
+j                                                                                 0x0562       2
+f                                                                                 0x0564       2
+s                                                                                 0x0566       2
+_base_y                                                                           0x0568       4
+_lcd_x                                                                            0x056C       1
+_lcd_y                                                                            0x056D       1
+_lcd_maxx                                                                         0x056E       1
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+key                                                                               R4,R5        2
+player                                                                            R6,R7        2
+state                                                                             R8,R9        2
+count                                                                             R10,R11      2
+i                                                                                 R12,R13      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+get_key                                                                           0x000B9    193
+get_started                                                                       0x0017A     68
+show                                                                              0x001BE    106
+winner_check                                                                      0x00228    117
+main                                                                              0x0029D    243
+_lcd_write_nibble_G100                                                            0x00390     20
+_lcd_write_data                                                                   0x003A4     12
+lcd_gotoxy                                                                        0x003B0     17
+lcd_clear                                                                         0x003C1     14
+lcd_putchar                                                                       0x003CF     32
+lcd_puts                                                                          0x003EF     17
+lcd_init                                                                          0x00400     47
